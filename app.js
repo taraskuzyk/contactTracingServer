@@ -23,10 +23,10 @@ const User = require("./models/user");
 
 const devices = [
   {deveui: "647FDA000000589A", mac: "14B45790D667", name: "Person A"},
-  {deveui: "647FDA00000058AE", mac: "14B45790D60B", name: "Person B"},
+  {deveui: "647FDA0000005974", mac: "14B45790DC1A", name: "Person B"},
   {deveui: "647FDA000000597F", mac: "14B45790D5A4", name: "Person C"},
-  {deveui: "647FDA0000005974", mac: "14B45790DC1A", name: "Person D"},
-  {deveui: "647FDA0000005892", mac: "14B45790D659", name: "Person E"},
+  //{deveui: "647FDA0000005974", mac: "14B45790DC1A", name: "Person D"},
+  // {deveui: "647FDA0000005892", mac: "14B45790D659", name: "Person E"},
   // {deveui: "", mac: "", name: "Person F"},
   // {deveui: "", mac: "", name: "Person G"},
   // {deveui: "", mac: "", name: "Person H"},
@@ -36,7 +36,7 @@ const devices = [
   // {deveui: "", mac: "", name: "Person L"},
 ]
 
-// uncomment to set up the database with devices
+// // uncomment to set up the database with devices
 // for (var i = 0; i < devices.length; i++) {
 //   User.create({
 //     deveui: devices[i].deveui,
